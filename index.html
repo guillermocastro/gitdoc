@@ -1,16 +1,35 @@
 <html>
     <head>
         <title>
-            Git Training
+            Git Training :: Initializing
         </title>
-        <style src="tutorial.css"></style>
+        <link href="tutorial.css" rel="stylesheet" />
     </head>
     <body>
-        <nav>Git Training</nav>
-        <ul>
-            <li><a href="init.html">Initialize the local repository</a></li>
-            <li><a href="setup.html">Setup environment</a></li>
-        </ul>
-        <bottom>Esto es un tutorial</bottom>
+        <h1>GIT</h1>
+        <h2>Git Training :: Initializing</h2>
+        <h3 class="comando">git init</h3>
+        <p>Initializes the local git repository</p>
+        <h3 class="comando">git add .</h3>
+        <p>Adds all the files to the commit list</p>
+        <h3 class="comando">git commit -m "<span class="local">commit id</span>"</h3>
+        <hr />
+        <h2>Cloning repository</h2>
+        <h3 class="comando">git remote add origin <span class="remote">https://github.com/guillermocastro/gitdoc.git</span></h3>
+        <p>Prepares the local git repository to be cloned to the <span class="remote">https://github.com/guillermocastro/gitdoc.git</span> destination</p>
+        <h3 class="comando">git push --mirror <span class="remote">https://github.com/guillermocastro/gitdoc.git</span></h3>
+        <p>Clone the local repository to <span class="remote">https://github.com/guillermocastro/gitdoc.git</span></p>
+        <h3 class="comando">git clone <span class="remote">https://github.com/guillermocastro/gitdoc.git</span> gitdoc</h3>
+        <p>Clone a copy of <span class="remote">https://github.com/guillermocastro/gitdoc.git</span> to  <span>gitdoc</span></p>
+        <h3 class="comando">git push -u origin master</h3>
+        <p>Push all the tagged files to the repository</p>
+        <h3 class="comando">git push <span class="remote">https://github.com/guillermocastro/gitdoc.git</span></h3>
+        <p>Pushed the current repository to <span class="remote">https://github.com/guillermocastro/gitdoc.git</span></p>
+        <hr />
+        <h2>Setup Git</h2>
+        <h3 class="comando">git config --global user.name <span class="local">"My name"</span></h3>
+        <p>Set the user name</p>
+        <h3 class="comando">git config --global user.email <span class="local">"My mail"</span></h3>
+        <p>Set the user mail</p>
     </body> 
 </html>
