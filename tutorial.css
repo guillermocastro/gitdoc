@@ -1,6 +1,6 @@
 body{
     color: black;
-    background-color: white;
+    background-color: white	;
 }
 h1,h2,h3,h4,h5,h6 {
     color: lightblue;
@@ -10,13 +10,13 @@ nav{
     background-color: darkgray;
 }
 .comando{
-    color: lightgreen;
+    color: darkgrey;
 }
 .texto{
-    color: lightsalmon;
+    color: blue;
 }
 .local{
-    color: blanchedalmond;
+    color: green;
 }
 .remote{
     color: cadetblue;
